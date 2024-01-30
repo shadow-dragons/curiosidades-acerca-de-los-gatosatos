@@ -1,0 +1,40 @@
+.curiosity-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+}
+
+.curiosity-container img {
+    
+    max-width: 100%;
+    height: auto;
+    display: block; /* Asegura que la imagen no esté alineada con los botones */
+    margin-bottom: 10px; /* Espacio entre la imagen y los botones */
+}
+
+.caja {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+    background-color: white; /* Fondo blanco para la caja */
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #021c38;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
